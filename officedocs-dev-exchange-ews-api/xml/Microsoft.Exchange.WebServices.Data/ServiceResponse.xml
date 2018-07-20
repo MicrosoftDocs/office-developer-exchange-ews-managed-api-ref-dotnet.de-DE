@@ -1,0 +1,138 @@
+<Type Name="ServiceResponse" FullName="Microsoft.Exchange.WebServices.Data.ServiceResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625135" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt die standard Antwort auf einen Exchange-Webdienste-Vorgang.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As ServiceError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceError ErrorCode { Microsoft::Exchange::WebServices::Data::ServiceError get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Fehlercode dieser Antwort zugeordnet.</summary>
+        <value>Einer der Enumerationswerte ServiceError.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDetails">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; ErrorDetails { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; ErrorDetails" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorDetails" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorDetails As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ ErrorDetails { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen der Antwort zugeordnete Fehlerdetails.</summary>
+        <value>Das Wörterbuch für die Fehler Details.</value>
+        <remarks>
+          <para>Wenn das Ergebnis Success festgelegt ist, gibt ErrorDetailsDictionary null zurück. Fehlerdetails werden nur für einige Fehlercodes verfügbar. Beispielsweise wenn Fehlercode ErrorRecurrenceHasNoOccurrence ist, wird die ErrorDetailsDictionary Schlüssel für EffectiveStartDate und EffectiveEndDate enthalten.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine ausführliche Fehlermeldung, die der Antwort zugeordnet.</summary>
+        <value>Ein String-Wert mit einer Fehlermeldung.</value>
+        <remarks>
+          <para>Wenn das Ergebnis Success festgelegt ist, gibt ErrorMessage null zurück. ErrorMessage wird entsprechend der PreferredCulture-Eigenschaft des Objekts ExchangeService lokalisiert, mit der die-Methode aufrufen, die die Antwort generiert wurde.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; ErrorProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; ErrorProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.ErrorProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorProperties As Collection(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ ErrorProperties { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft Informationen zur Eigenschaftenfehler im Zusammenhang mit der Antwort ab.</summary>
+        <value>Die Liste der Fehler-Eigenschaften.</value>
+        <remarks>
+          <para>Wenn das Ergebnis Success festgelegt ist, gibt ErrorProperties null zurück. ErrorProperties ist nur für einige Fehlercodes verfügbar. Beispielsweise wird der Fehlercode ErrorInvalidPropertyForOperation, ErrorProperties die Definition der Eigenschaft enthält, die für die Anforderung ungültig ist.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceResult Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceResult Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponse.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As ServiceResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceResult Result { Microsoft::Exchange::WebServices::Data::ServiceResult get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft das Ergebnis dieser Antwort zugeordnet.</summary>
+        <value>Einer der Enumerationswerte ServiceResult.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

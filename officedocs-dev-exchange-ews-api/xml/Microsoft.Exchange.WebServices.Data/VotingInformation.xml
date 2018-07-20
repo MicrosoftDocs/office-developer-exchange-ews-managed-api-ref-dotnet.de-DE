@@ -1,0 +1,75 @@
+<Type Name="VotingInformation" FullName="Microsoft.Exchange.WebServices.Data.VotingInformation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="27d434c846d26da0886898356dd212889384eb60" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625072" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class VotingInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VotingInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.VotingInformation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VotingInformation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VotingInformation sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt Informationen zu Nachrichten, die Schaltflächen Stimmabgabe oder Antwortnachrichten Stimmabgabe Stimmabgabe. Die <see cref="T:Microsoft.Exchange.WebServices.Data.VotingInformation" /> Klasse gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UserOptions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.VotingOptionData&gt; UserOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.VotingOptionData&gt; UserOptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.VotingInformation.UserOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserOptions As Collection(Of VotingOptionData)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::VotingOptionData ^&gt; ^ UserOptions { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::VotingOptionData ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.VotingOptionData&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Liste der Abstimmungsoptionen ab.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft wird die Daten auf Nachrichten, die Stimmabgabe Schaltflächen enthalten oder Genehmigung Anforderungsnachrichten enthalten. Es wird auf Abstimmungsoptionen Antwortnachrichten leer sein.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingResponse">
+      <MemberSignature Language="C#" Value="public string VotingResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VotingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.VotingInformation.VotingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VotingResponse As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ VotingResponse { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Stimmabgabe Antwort ab.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft wird auf Abstimmungsoptionen Antwortnachrichten Daten enthalten. Es wird auf Nachrichten, die Stimmabgabe Schaltflächen enthalten und Genehmigung Anforderungsnachrichten leer sein.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

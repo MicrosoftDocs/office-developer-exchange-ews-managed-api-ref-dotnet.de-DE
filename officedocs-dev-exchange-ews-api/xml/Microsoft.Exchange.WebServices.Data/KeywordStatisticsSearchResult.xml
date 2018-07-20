@@ -1,0 +1,111 @@
+<Type Name="KeywordStatisticsSearchResult" FullName="Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9059a58824cff0ea5a21080c4644cae40d02a585" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624754" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit KeywordStatisticsSearchResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class KeywordStatisticsSearchResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Enthält Statistiken in Zusammenhang mit einer eDiscovery-Suche.             Die <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> Klasse gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeywordStatisticsSearchResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; KeywordStatisticsSearchResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Erstellt eine neue Instanz der <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> Klasse. Die <see cref="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" /> Konstruktor gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemHits">
+      <MemberSignature Language="C#" Value="public int ItemHits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ItemHits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemHits As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItemHits { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab, oder legt diesen fest, die ein Search-Wert wird angezeigt, wie oft die gesamte an in die Nachrichten enthalten sind, in einer Reihe von Postfächern.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die Anzahl der Zugriffe Element.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keyword">
+      <MemberSignature Language="C#" Value="public string Keyword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Keyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" />
+      <MemberSignature Language="VB.NET" Value="Public Property Keyword As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keyword { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen des Werts der Suche für eine eDiscovery-Suche.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Das Schlüsselwort Suche Value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt die Anzahl der Elemente in einer Reihe von Postfächern, die den gesuchte Wert enthalten.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die Gesamtgröße.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

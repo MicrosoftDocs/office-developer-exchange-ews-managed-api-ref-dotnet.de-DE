@@ -1,0 +1,69 @@
+<Type Name="SubscriptionErrorEventArgs" FullName="Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b0b2ec8e61c7bf1a72c2df1d01db9d132660a02" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624991" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SubscriptionErrorEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SubscriptionErrorEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscriptionErrorEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SubscriptionErrorEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt Daten für die Ereignisse OnSubscriptionError und OnDisconnect eines StreamingSubscriptionConnection-Objekts.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public Exception Exception { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As Exception" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Exception ^ Exception { Exception ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Ausnahme, die den Fehler darstellt. Wenn die Ausnahme ein Nullverweis (Nothing in Visual Basic) ist, wurde die Verbindung vom Server ordnungsgemäß geschlossen.</summary>
+        <value>Ein System.Exception-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscription">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Subscription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subscription As StreamingSubscription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ Subscription { Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab, das Abonnement für das ist ein Fehler aufgetreten. Wenn das Abonnement ein Nullverweis (Nothing in Visual Basic) ist, gilt der Fehler für die gesamte Verbindung.</summary>
+        <value>Ein StreamingSubscription-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

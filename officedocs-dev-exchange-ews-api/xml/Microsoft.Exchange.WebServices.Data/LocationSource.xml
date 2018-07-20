@@ -1,0 +1,142 @@
+<Type Name="LocationSource" FullName="Microsoft.Exchange.WebServices.Data.LocationSource">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2d33d6b97a2723c78c72f8e098605ae1ff3adecb" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625230" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum LocationSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LocationSource extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LocationSource" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LocationSource" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LocationSource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Definiert, welche Kontaktinformationen Ressource verwendet wird, um die physische Adresse einer Rolle auszuwählen.             Die <see cref="T:Microsoft.Exchange.WebServices.Data.LocationSource" /> Enumeration gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="Contact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource Contact = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" />
+      <MemberSignature Language="VB.NET" Value="Contact" />
+      <MemberSignature Language="C++ CLI" Value="Contact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Ein Kontakt in Kontaktordner des Benutzers. Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Device">
+      <MemberSignature Language="C#" Value="Device" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource Device = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" />
+      <MemberSignature Language="VB.NET" Value="Device" />
+      <MemberSignature Language="C++ CLI" Value="Device" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Ein GPS-aktivierten Gerät. Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationServices">
+      <MemberSignature Language="C#" Value="LocationServices" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource LocationServices = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" />
+      <MemberSignature Language="VB.NET" Value="LocationServices" />
+      <MemberSignature Language="C++ CLI" Value="LocationServices" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Ein Location-Dienst wie das Feature Zuordnung von einer Suchmaschine. Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Eine Ressource undefined Kontaktinformationen. Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhonebookServices">
+      <MemberSignature Language="C#" Value="PhonebookServices" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource PhonebookServices = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" />
+      <MemberSignature Language="VB.NET" Value="PhonebookServices" />
+      <MemberSignature Language="C++ CLI" Value="PhonebookServices" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Ein externer Telefonbuch-Dienst. Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Resource">
+      <MemberSignature Language="C#" Value="Resource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LocationSource Resource = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" />
+      <MemberSignature Language="VB.NET" Value="Resource" />
+      <MemberSignature Language="C++ CLI" Value="Resource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Eine Ressource (z. B. einem Konferenzraum). Die <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" /> Feld gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,222 @@
+<Type Name="MeetingResponse" FullName="Microsoft.Exchange.WebServices.Data.MeetingResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b351ec80a7315a6707e56c2c55926db24aa9de31" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625111" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MeetingResponse : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingResponse extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingResponse&#xA;Inherits MeetingMessage" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingResponse : Microsoft::Exchange::WebServices::Data::MeetingMessage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.MeetingMessage</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt eine Antwort auf eine Besprechungsanfrage.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingResponse Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingResponse Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingResponse.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As MeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingResponse ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Dienst zu verwenden, um die Antwort auf Besprechungsanfrage binden.</param>
+        <param name="id">Der Bezeichner der Besprechungsantwort für die Bindung.</param>
+        <summary>Bindet an einen vorhandenen Besprechungsantwort und seine Eigenschaften First-Class lädt. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Eine Instanz der MeetingResponse-Klasse, die die Meeting-Antwort, die entspricht dem angegebenen Bezeichner darstellt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingResponse Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingResponse Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingResponse.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingResponse ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Dienst zu verwenden, um die Antwort auf Besprechungsanfrage binden.</param>
+        <param name="id">Der Bezeichner der Besprechungsantwort für die Bindung.</param>
+        <param name="propertySet">Die Gruppe von Eigenschaften zu laden.</param>
+        <summary>Bindet an einen vorhandenen Besprechungsantwort und lädt die angegebene Gruppe von Eigenschaften. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Eine Instanz der MeetingResponse-Klasse, die die Meeting-Antwort, die entspricht dem angegebenen Bezeichner darstellt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Endzeit der Besprechung ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die Endzeit der Besprechung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnhancedLocation As EnhancedLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ EnhancedLocation { Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Standortinformationen für die Besprechung wie der Name der Speicherort, Adresse und optional Notizen.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Zusätzliche Standortinformationen.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Ort der Besprechung ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Der Ort der Besprechung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProposedEnd">
+      <MemberSignature Language="C#" Value="public DateTime ProposedEnd { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ProposedEnd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProposedEnd As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ProposedEnd { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die vorgeschlagenen Endzeit der Besprechung ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die vorgeschlagenen Endzeit der Besprechung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProposedStart">
+      <MemberSignature Language="C#" Value="public DateTime ProposedStart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ProposedStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProposedStart As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ProposedStart { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die vorgeschlagenen Anfangszeit der Besprechung ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die vorgeschlagenen Anfangszeit der Besprechung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Recurrence Recurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Recurrence Recurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recurrence As Recurrence" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Recurrence ^ Recurrence { Microsoft::Exchange::WebServices::Data::Recurrence ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft das Serienmuster für diese Besprechungsanfrage ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Das Serienmuster für diese Besprechungsanfrage.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Anfangszeit der Besprechung ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die Anfangszeit der Besprechung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

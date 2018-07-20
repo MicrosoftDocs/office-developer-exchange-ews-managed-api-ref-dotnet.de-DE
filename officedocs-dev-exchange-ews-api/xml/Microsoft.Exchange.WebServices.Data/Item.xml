@@ -1,0 +1,1483 @@
+<Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625141" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Item : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt ein generisches Element dar. Eigenschaften für Elemente verfügbar sind, werden definiert die <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> Klasse. Die <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> Typ gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowedResponseActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.AllowedResponseActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowedResponseActions As ResponseActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ResponseActions AllowedResponseActions { Microsoft::Exchange::WebServices::Data::ResponseActions get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, welche Antwortaktionen als auf dieses Element zulässig sind. Beispiele für Antwortaktionen als sind Antwort- und Weiterleitungskopfzeilen.</summary>
+        <value>Ein ResponseActions-Enumerationswert ab.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt diesen fest das Archiv Tag.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Das Archiv-Tag.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine Liste der Anlagen auf dieses Element ab.</summary>
+        <value>Ein AttachmentCollection-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Dienst zu verwenden, um das Element binden.</param>
+        <param name="id">Die ID für die Bindung des Elements.</param>
+        <summary>Bindet an ein vorhandenes Element, aufbauen, die tatsächlichen Typ ist, und seine Eigenschaften First-Class lädt. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Eine Elementinstanz, der das Element, das entspricht zu der angegebenen ID ab.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Ausführliche Informationen zu dieser Ausnahme finden Sie unter <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Dienst zu verwenden, um das Element binden.</param>
+        <param name="id">Die ID für die Bindung des Elements.</param>
+        <param name="propertySet">Die Gruppe von Eigenschaften zu laden.</param>
+        <summary>Bindet an ein vorhandenes Element, aufbauen, die tatsächlichen Typ ist, und lädt die angegebene Gruppe von Eigenschaften.</summary>
+        <returns>Eine Elementinstanz, die das Element, das der angegebenen ID darstellt</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Ausführliche Informationen zu dieser Ausnahme finden Sie unter <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt diesen fest im Textkörper der dieses Element.</summary>
+        <value>Ein MessageBody-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt die Liste von Kategorien, die mit diesem Element verknüpft sind.</summary>
+        <value>Ein StringList-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die ID der Unterhaltung, der dieses Element gehört.</summary>
+        <value>ConversationId-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">Die ID des Ordners, in dem eine Kopie dieses Elements erstellt.</param>
+        <summary>Erstellt eine Kopie dieses Elements im angegebenen Ordner. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Item-Objekt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">Der Name des Ordners, in dem eine Kopie dieses Elements erstellt.</param>
+        <summary>Erstellt eine Kopie dieses Elements im angegebenen Ordner. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Item-Objekt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder festlegen die Kultur, die dieses Element zugeordnet ist.</summary>
+        <value>Eine Zeichenfolge, die Kultur des Elements angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft Datum und Uhrzeit, zu der dieses Element erstellt wurde.</summary>
+        <value>Ein DateTime-Wert, der angibt, das Datum und die Uhrzeit, die das Element erstellt wurde.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Zeit ab, der dieses Element empfangen wurde.</summary>
+        <value>Ein DateTime-Wert, der angibt, das Datum und die Uhrzeit, wurde das Element empfangen.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft Datum und Uhrzeit, zu der dieses Element gesendet wurde.</summary>
+        <value>Ein DateTime-Wert, der angibt, das Datum und die Uhrzeit, wurde das Element gesendet.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">Der Löschmodus.</param>
+        <summary>Löscht das Element. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">Der Löschmodus.</param>
+        <param name="suppressReadReceipts">
+          <b>true,</b> Wenn gelesenen Empfangsbestätigungen nicht gesendet werden soll, wenn das Element gelöscht wird eine lesebestätigung angefordert hat. anderenfalls <b>false</b>.</param>
+        <summary>Löscht das Element. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine Textzeichenfolge, die die Cc-Empfänger dieses Elements enthält.</summary>
+        <value>Ein String-Wert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen einer Textzeichenfolge zurückgegeben, die an Empfänger der dieses Element enthält.</summary>
+        <value>Ein String-Wert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der die effektiven Rechte angibt, die der aktuelle authentifizierte Benutzer auf dieses Element hat.</summary>
+        <value>Einen EffectiveRights-Enumerationswert ab.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntityExtractionResult As EntityExtractionResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ EntityExtractionResult { Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Entität Extraktion von Informationen für das Element ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die extrahierten Entitäten.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine Liste der erweiterten Eigenschaften, die auf dieses Element definiert sind.</summary>
+        <value>Ein ExtendedPropertyCollection-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Flag Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Flag Flag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As Flag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Flag ^ Flag { Microsoft::Exchange::WebServices::Data::Flag ^ get(); void set(Microsoft::Exchange::WebServices::Data::Flag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Flag-Werts, das den Status, Startdatum, Fälligkeitsdatum oder Fertigstellungstermin für ein Element angibt.   Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Der Flagwert für dieses Element.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob das Element Anlagen enthält.</summary>
+        <value>True, wenn das Element Anlagen enthält. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Symbolindex. Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Der Symbolindex.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die ID dieses Elements.</summary>
+        <value>Ein ItemId-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt die Wichtigkeit dieses Elements fest.</summary>
+        <value>Eine Wichtigkeit-Enumerationswert ab, der die Wichtigkeit des Elements angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt diesen fest den Verweis In-Antwort-an dieses Elements.</summary>
+        <value>Ein String-Wert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft das Instanz Element ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Element-Instanz-Taste.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageHeaders As InternetMessageHeaderCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ InternetMessageHeaders { Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine Liste der Internetkopfzeilen für dieses Element ab. Wenn Sie die gesamte Auflistung der Internetkopfzeilen Nachricht erhalten möchten, verwenden Sie die PR_TRANSPORT_MESSAGE_HEADERS-Eigenschaft.</summary>
+        <value>Ein <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> Objekt.</value>
+        <remarks>
+          <para>Im folgenden finden Sie die Definition für die erweiterte Eigenschaft PR_TRANSPORT_MESSAGE_HEADERS.</para>
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+          <para>Sie können diese Eigenschaftsdefinition zum Hinzufügen der <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> Nachricht Internetkopfzeilen abzurufenden Objekts.</para>
+          <para>Weitere Informationen zum Exchange-Webdienste und Internet Nachrichtenkopfzeilen finden Sie unter "Getting Internet Nachrichtenkopfzeilen" im <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, und die fehlenden Internet-Nachrichtenkopfzeilen</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob dies ein Element zugeordnet ist.</summary>
+        <value>True, wenn dies ein Element zugeordnet ist. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAttachment">
+      <MemberSignature Language="C#" Value="public bool IsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttachment { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob das Element eine Anlage ist.</summary>
+        <value>True, wenn das Element eine Anlage enthält. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob das Element einen Entwurf. Ein Element ist ein Entwurf, wenn es noch nicht gesendet wurde.</summary>
+        <value>True, wenn dieses Element einen Entwurf. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob der aktuelle authentifizierte Benutzer das Element gesendet wurde.</summary>
+        <value>True, wenn das Element der aktuelle authentifizierte Benutzer gesendet wird. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public override bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob dieses Objekt ist ein Element realen Store oder ein lokales Objekt, das noch gespeichert werden soll.</summary>
+        <value>True, wenn das Element nicht gespeichert wurde. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob eine Erinnerung für diesen Artikel festgelegt ist.</summary>
+        <value>True, wenn die Erinnerung festgelegt wird. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob das Element erneute Senden eines anderen Elements ist.</summary>
+        <value>True, wenn das Element erneute senden. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob die Nachricht gesendet werden übermittelt wurde.</summary>
+        <value>True, wenn das Element übermittelt wurde. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft einen Wert, der angibt, ob das Element geändert wurde, da es erstellt wurde.</summary>
+        <value>True, wenn das Element nicht geändert wurde. andernfalls, False.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen des Namens der benutzerdefinierten Klasse dieses Elements.</summary>
+        <value>Ein String-Wert zurück, der den benutzerdefinierte Klassennamen.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Namen des Benutzers, der dieses Element zuletzt geändert.</summary>
+        <value>Ein String-Wert zurück, der den Benutzer, der letzten des Elements Änderung angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft Datum und Uhrzeit der letzten Änderung dieses Elements.</summary>
+        <value>Ein DateTime-Wert, der angibt, Datum und Zeit für wurde das Element zuletzt geändert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MimeContent MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MimeContent MimeContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MimeContent ^ MimeContent { Microsoft::Exchange::WebServices::Data::MimeContent ^ get(); void set(Microsoft::Exchange::WebServices::Data::MimeContent ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den MIME-Inhalt dieses Elements ab.</summary>
+        <value>Ein Objekt ' MimeContent '.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">Die ID des Ordners, in dem dieses Element verschoben werden.</param>
+        <summary>Dieses Element verschoben in den angegebenen Ordner. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Item-Objekt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">Der Name des Ordners, in dem dieses Element verschoben werden.</param>
+        <summary>Dieses Element verschoben in den angegebenen Ordner. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</summary>
+        <returns>Item-Objekt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalizedBody As NormalizedBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::NormalizedBody ^ NormalizedBody { Microsoft::Exchange::WebServices::Data::NormalizedBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Textkörper des ein Element, das in einen normalisierten Wert konvertiert wurde.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die normalisierte Textkörper des Elements.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die ID des übergeordneten Ordners dieses Elements ab.</summary>
+        <value>Ein FolderId-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen des Werts der Retention Policy.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Der Retention Policy-Wert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Vorschau Element ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Die Element-Vorschau.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt Datum und Uhrzeit, wann die Erinnerung für diesen Artikel fällig ist.</summary>
+        <value>Ein DateTime-Wert, der angibt, das Datum und die Uhrzeit, an die Erinnerung fällig ist.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt die Anzahl der Minuten vor Beginn dieses Elements, dass die Erinnerung ausgelöst werden soll.</summary>
+        <value>Ein Integer-Wert zurück, der die Anzahl der Minuten angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">Die erweiterten Eigenschaftsdefinition.</param>
+        <summary>Entfernt eine erweiterte Eigenschaft.</summary>
+        <returns>True, wenn die Eigenschaft entfernt wurde. andernfalls, False.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RetentionDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; RetentionDate { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft das Datum, bis zu dem ein Element beibehalten werden muss.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Das Aufbewahrungsdatum.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Speichert dieses Elements im Standardordner basierend auf den Typ des Elements an. Durch Aufrufen dieser Methode führt mindestens einen Anruf an die Exchange-Webdienste (EWS). Mehrere Aufrufe von EWS möglicherweise vorgenommen werden, wenn Anlagen hinzugefügt wurden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">Die ID des Ordners in der dieses Element gespeichert.</param>
+        <summary>Speichert dieses Element in einem bestimmten Ordner an. Durch Aufrufen dieser Methode führt mindestens einen Anruf an die Exchange-Webdienste (EWS). Mehrere Aufrufe von EWS möglicherweise vorgenommen werden, wenn Anlagen hinzugefügt wurden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">Der Name des Ordners, in der dieses Element gespeichert.</param>
+        <summary>Speichert dieses Element in einem bestimmten Ordner an. Durch Aufrufen dieser Methode führt mindestens einen Anruf an die Exchange-Webdienste (EWS). Mehrere Aufrufe von EWS möglicherweise vorgenommen werden, wenn Anlagen hinzugefügt wurden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Vertraulichkeit dieses Elements ab.</summary>
+        <value>Sensitivity-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">Die erweiterte Eigenschaft festlegen.</param>
+        <param name="value">Der Wert für die erweiterte Eigenschaft festzulegen.</param>
+        <summary>Legt die angegebene erweiterte Eigenschaft auf den angegebenen Wert.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Größe dieses Elements ab.</summary>
+        <value>Ein Integer-Wert zurück, der die Größe des Elements angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Eintrags-ID des Speichers, den das Element gehostet wird.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Das Store-Eintrags-ID</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen des Betreffs der dieses Element.</summary>
+        <value>Ein String-Wert zurück, der den Betreff des Elements angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TextBody TextBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TextBody TextBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextBody As TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TextBody ^ TextBody { Microsoft::Exchange::WebServices::Data::TextBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Textkörper des Elements ab.             Die <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+        <value>Der Textkörper des Elements.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueBody As UniqueBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UniqueBody ^ UniqueBody { Microsoft::Exchange::WebServices::Data::UniqueBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Textteil, der für die Unterhaltung eindeutig ist, der dieses Element gehört.</summary>
+        <value>Ein UniqueBody-Objekt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">Der Konflikt Lösung Modus.</param>
+        <summary>Wendet die lokalen Änderungen, die auf dieses Element vorgenommen wurden. Durch Aufrufen dieser Methode führt mindestens einen Anruf an die Exchange-Webdienste (EWS). Mehrere Aufrufe von EWS möglicherweise vorgenommen werden, wenn Anlagen hinzugefügt oder entfernt wurden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">Der Konflikt Lösung Modus.</param>
+        <param name="suppressReadReceipts">
+          <b>true,</b> Wenn gelesenen Empfangsbestätigungen nicht gesendet werden soll, wenn das Element aktualisiert wird eine lesebestätigung angefordert hat. anderenfalls <b>false</b>.</param>
+        <summary>Wendet die lokalen Änderungen, die auf dieses Element vorgenommen wurden. Durch Aufrufen dieser Methode führt mindestens einen Aufruf EWS. Mehrere Aufrufe von EWS möglicherweise vorgenommen werden, wenn Anlagen hinzugefügt oder entfernt wurden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen der Abfragezeichenfolge, die auf der Outlook Web App-URL zum Öffnen dieses Objekts in einem Webbrowser angehängt werden kann.</summary>
+        <value>Ein String-Wert.</value>
+        <remarks>
+          <para>Diese Eigenschaft gilt für Exchange 2010. Verwenden Sie die Informationen aus der <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> Eigenschaft ein Entwurf-Element in Outlook Web App zu öffnen, und klicken Sie dann mithilfe der Benutzeroberfläche zum Bearbeiten des Entwurfs-Elements.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen der Abfragezeichenfolge, die an die Exchange-Client-URL zum Öffnen dieses Objekts mithilfe des entsprechenden lesen-Formulars in einem Webbrowser angefügt werden soll.</summary>
+        <value>Ein String-Wert.</value>
+        <remarks>
+          <para>Die Element-ID für ein Outlook Web App-URL ist der EWS-Bezeichner des Elements. Sie können Sie die URL-Kodierung der EWS-Elementbezeichner und fügen Sie es an die Abfragezeichenfolge zum Abrufen der Outlook Web App-URL für ein Element.</para>
+          <para>Versionsunterschiede</para>
+          <para>Exchange-Versionen mit Hauptversion 15 beginnend und endend mit 15.00.775.009 keine zurückgegeben ein Fragment einer korrekte Abfrage in der <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> -Eigenschaft.</para>
+          <para>In früheren Versionen von Exchange als Hauptversion 15, ist der Bezeichner für die Outlook Web App-URL ein Outlook Web App-Bezeichner. Wenn Sie eine Version von Exchange vor Hauptversion 15 abzielen, müssen Sie verwenden die <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> -Methode, um die Kennung zu konvertieren.</para>
+          <para />
+        </remarks>
+        <example>
+          <code>    /// &amp;lt;summary&amp;gt;
+    /// Demonstrates how to open an item in Outlook Web App.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
+    {
+      // Create a view that will return the identifier for the first item in a folder.
+      ItemView itemView = new ItemView(1);
+      itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+
+      // Make a call to EWS to get one item from the mailbox folder.
+      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+
+      // Get the item identifier of the item to open in Outlook Web App.
+      ItemId itemId = results.Items[0].Id;
+
+      ExchangeServerInfo serverInfo = service.ServerInfo;
+      var owaReadFormQueryString = string.Empty;
+      var ewsIdentifer = itemId.UniqueId;
+
+      try
+      {
+        // Make a call to EWS to bind to the item returned by the FindItems method.
+        EmailMessage msg = EmailMessage.Bind(service, itemId);
+        msg.Load(new PropertySet(BasePropertySet.IdOnly, EmailMessageSchema.WebClientReadFormQueryString));
+
+        // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
+        // returned a different query string fragment. This optional check is not required for applications that
+        // target Exchange Online.
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        {
+          // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
+          // this query string will be returned.
+          owaReadFormQueryString = string.Format("#viewmodel=_y.$Ep&amp;amp;ItemID={0}",
+            System.Web.HttpUtility.UrlEncode(ewsIdentifer, Encoding.UTF8));
+        }
+        else
+        {
+          // If your client is connected to an Exchanger 2010, Exchange 2013 CU3, or Exchange Online server,
+          // the WebClientReadFormQueryString is used.
+          owaReadFormQueryString = msg.WebClientReadFormQueryString;
+        }
+
+        // Create the URL that Outlook Web App uses to open the email message.
+        Uri url = service.Url;
+        string owaReadAccessUrl = string.Format("{0}://{1}/owa/{2}",
+          url.Scheme, url.Host, owaReadFormQueryString);
+
+        if (!string.IsNullOrEmpty(owaReadAccessUrl))
+        {
+          System.Diagnostics.Process.Start("IEXPLORE.EXE", owaReadAccessUrl);
+        }
+      }
+      catch (System.ComponentModel.Win32Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
+      }
+    }</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

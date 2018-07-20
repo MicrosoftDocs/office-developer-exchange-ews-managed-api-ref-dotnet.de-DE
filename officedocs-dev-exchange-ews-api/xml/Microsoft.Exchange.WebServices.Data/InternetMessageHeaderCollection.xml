@@ -1,0 +1,67 @@
+<Type Name="InternetMessageHeaderCollection" FullName="Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8362d0c6d6a4662bc523cdec5d3cd568e81e87d7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624566" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class InternetMessageHeaderCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit InternetMessageHeaderCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InternetMessageHeaderCollection&#xA;Inherits ComplexPropertyCollection(Of InternetMessageHeader)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InternetMessageHeaderCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::InternetMessageHeader ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.InternetMessageHeader</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt eine Auflistung von Internet-Nachrichtenkopfzeilen an. Wenn Sie die gesamte Auflistung der Internetkopfzeilen Nachricht erhalten möchten, verwenden Sie die PR_TRANSPORT_MESSAGE_HEADERS-Eigenschaft.</summary>
+    <remarks>
+      <para>Es folgt die Definition für die erweiterte Eigenschaft PR_TRANSPORT_MESSAGE_HEADERS. </para>
+      <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+      <para>Sie können diese Eigenschaftsdefinition zum Hinzufügen der <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> Nachricht Internetkopfzeilen abzurufenden Objekts.</para>
+      <para>Weitere Informationen zum Exchange-Webdienste und Internet Nachrichtenkopfzeilen finden Sie unter "Getting Internet Nachrichtenkopfzeilen" im <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, und die fehlenden Internet-Nachrichtenkopfzeilen</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeader Find (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeader Find(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (name As String) As InternetMessageHeader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::InternetMessageHeader ^ Find(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeader</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">Der Name des Headers, gesucht werden soll.</param>
+        <summary>Sucht eine bestimmte Kopfzeile in der Auflistung.</summary>
+        <returns>Ein InternetMessageHeader den Spaltenkopf mit dem angegebenen Namen darstellt; NULL, wenn keine Kopfzeile mit dem angegebenen Namen gefunden wurde.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

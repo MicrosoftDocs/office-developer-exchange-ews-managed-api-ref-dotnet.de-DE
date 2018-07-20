@@ -1,0 +1,790 @@
+<Type Name="EmailMessage" FullName="Microsoft.Exchange.WebServices.Data.EmailMessage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f5f255dace8d8fb4c59ed05dd9659c3387df2716" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624667" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailMessage : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessage extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessage" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailMessage&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailMessage : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt eine E-Mail-Nachricht dar.</summary>
+    <remarks>
+      <para>Die verfügbaren Eigenschaften für E-mail-Nachrichten werden in definiert die <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" /> Klasse.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailMessage (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailMessage(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Exchange-Dienst-Objekt an dem E-mail-Nachricht gebunden werden kann.</param>
+        <summary>Initialisiert eine lokale Instanz der Klasse "EmailMessage" mit einem Exchange-Dienst-Objekt.</summary>
+        <remarks>
+          <para>Verwendung der <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> -Methode, um auf eine vorhandene e-Mail-Nachricht auf dem Exchange-Server zu binden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalRequestData">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ApprovalRequestData ApprovalRequestData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ApprovalRequestData ApprovalRequestData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalRequestData As ApprovalRequestData" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ApprovalRequestData ^ ApprovalRequestData { Microsoft::Exchange::WebServices::Data::ApprovalRequestData ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ApprovalRequestData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Details der Anforderung Genehmigung für eine Genehmigung Request-Nachricht ab.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In der Reihenfolge für diese Eigenschaft auf die Daten enthält, die <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" /> Wert muss im Eigenschaftensatz übergeben vorhanden sein, die <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> -Methode.</para>
+          <para>Genehmigung Anforderungsnachrichten werden an einen Moderator als Teil des Nachrichtenflusses für moderierter Empfänger gesendet. Weitere Informationen finden Sie unter <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Transport moderiert</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BccRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ BccRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Liste der Bcc-Empfänger der e-Mail-Nachricht ab.</summary>
+        <value>Eine e-Mail-Adresse-Auflistung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.EmailMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.EmailMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As EmailMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::EmailMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Dienst, der zum Binden an die e-Mail-Nachricht.</param>
+        <param name="id">Der Bezeichner der E-mail-Nachricht für die Bindung.</param>
+        <summary>Bindet an eine vorhandene e-Mail-Nachricht und deren erster Klasse Eigenschaften lädt.</summary>
+        <returns>E-mail-Nachricht.</returns>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.EmailMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.EmailMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::EmailMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">Der Bezeichner der E-mail-Nachricht für die Bindung.</param>
+        <param name="id">Der Dienst, der zum Binden an die e-Mail-Nachricht.</param>
+        <param name="propertySet">Die Gruppe von Eigenschaften zu laden.</param>
+        <summary>Bindet an eine vorhandene e-Mail-Nachricht und lädt die angegebene Gruppe von Eigenschaften.</summary>
+        <returns>E-mail-Nachricht.</returns>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CcRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ CcRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Liste der Cc-Empfänger für die e-Mail-Nachricht ab.</summary>
+        <value>Eine e-Mail-Adresse-Auflistung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public byte[] ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ ConversationIndex { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Index der Unterhaltung der E-mail-Nachricht.</summary>
+        <value>Der Index Unterhaltung.</value>
+        <remarks>
+          <para>Obwohl die ConversationIndex-Eigenschaft schreibgeschützt ist, können Sie die ConversationIndex mithilfe von erweiterten Eigenschaften festlegen. Finden Sie unter <a href=" HYPERLINK &quot;http://go.microsoft.com/fwlink/?LinkId=186176&quot; http://go.microsoft.com/fwlink/?LinkId=186176">Nachverfolgen Unterhaltungen</a>ConversationIndex-Eigenschaft.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft das Unterhaltungsthema der E-mail-Nachricht ab.</summary>
+        <value>Das Unterhaltungsthema.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateForward">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.CreateForward" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateForward () As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Erstellt eine forward Antwort auf die Nachricht an.</summary>
+        <returns>Die forward-Antwort, die später geändert und gesendet werden kann.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply (bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply(bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.CreateReply(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateReply (replyAll As Boolean) As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateReply(bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="replyAll">
+          <b>true</b> gibt an, ob die Antwort an alle ursprünglichen Empfänger der Nachricht eingefügt werden sollen. anderenfalls <b>false</b>.</param>
+        <summary>Erstellt eine Antwort auf die Nachricht an.</summary>
+        <returns>Die Antwort, die später geändert und gesendet werden kann.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, params Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,Microsoft.Exchange.WebServices.Data.EmailAddress[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, ParamArray toRecipients As EmailAddress())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="Microsoft.Exchange.WebServices.Data.EmailAddress[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">Das Präfix an, auf den ursprünglichen Textkörper der Nachricht vorangestellt.</param>
+        <param name="toRecipients">Die Empfänger, die die weitergeleitete Meldung angezeigt.</param>
+        <summary>Leitet die Nachricht weiter.</summary>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.EmailAddress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, toRecipients As IEnumerable(Of EmailAddress))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">Das Präfix an, auf den ursprünglichen Textkörper der Nachricht vorangestellt.</param>
+        <param name="toRecipients">Die Empfänger, die die weitergeleitete Meldung angezeigt.</param>
+        <summary>Leitet die Nachricht weiter.</summary>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress From { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress From" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+      <MemberSignature Language="VB.NET" Value="Public Property From As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ From { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt fest, die die e-Mail-Nachricht stammt.</summary>
+        <value>Eine E-mail-Adresse.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Internetnachricht-ID der E-mail-Nachricht ab.</summary>
+        <value>Eine Internetnachricht-ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob dies eine Nachricht zugeordnet ist.</summary>
+        <value>
+          <b>true,</b> Wenn diese Meldung verknüpft ist. anderenfalls <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob eine Empfangsbestätigung für die e-Mail-Nachricht angefordert wird.</summary>
+        <value>
+          <b>true,</b> Wenn eine Empfangsbestätigung angefordert wird. anderenfalls <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob die e-Mail-Nachricht gelesen wurde.</summary>
+        <value>
+          <b>true,</b> Wenn die e-Mail-Nachricht gelesen wurde. anderenfalls <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob eine lesebestätigung für die e-Mail-Nachricht angefordert wird.</summary>
+        <value>
+          <b>true,</b> Wenn eine lesebestätigung Requester ist; anderenfalls <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequested As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsResponseRequested { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen eines Werts, das angibt, ob für die e-Mail-Nachricht eine Antwort angefordert wird.</summary>
+        <value>
+          <b>true,</b> Wenn für die e-Mail-Nachricht eine Antwort angefordert wird. anderenfalls <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceivedBy As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ ReceivedBy { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen der stellvertretungs, die die e-Mail-Nachricht empfangen hat.</summary>
+        <value>Eine E-mail-Adresse.</value>
+        <remarks>
+          <para>Die ReceivedBy-Eigenschaft wird zusammen mit der <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> und <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> Eigenschaften in einer Access Stellvertreter-Szenario. Die folgende Tabelle enthält die Entitäten, die diese Eigenschaften in einem Szenario mit Access Delegaten darstellen.</para>
+          <list type="table">
+            <item>
+              <term>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+              </term>ThirdParty
+            </item>
+            <item>
+              <term>ReceivedBy</term>
+              <description>Delegaten</description>
+            </item>
+            <item>
+              <term>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
+              </term>Principal
+            </item>
+          </list>
+          <para>In einem Szenario mit Access Delegaten Wenn eine ThirdParty einem Prinzipal eine Besprechungsanfrage sendet, die eine Stellvertretung hat die Stellvertretung sehen eine neue Besprechungsanfrage. Aktivieren Sie diese Eigenschaften Delegaten zu unterscheiden, die direkt an Sie gesendet werden und Nachrichten, die aufgrund einer Weiterleitungsregel Delegaten an Sie gesendet werden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedRepresenting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedRepresenting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedRepresenting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceivedRepresenting As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ ReceivedRepresenting { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft den Prinzipal der E-mail-Nachricht ab.</summary>
+        <value>Eine E-mail-Adresse.</value>
+        <remarks>
+          <para>Die ReceivedRepresenting-Eigenschaft wird zusammen mit der <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> und <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> Eigenschaften in einer Access Stellvertreter-Szenario.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public string References { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string References" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" />
+      <MemberSignature Language="VB.NET" Value="Public Property References As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ References { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder Festlegen der E-mail-Nachricht die Verweise.</summary>
+        <value>Eine Reihe von verweisen.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public void Reply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Reply(Microsoft.Exchange.WebServices.Data.MessageBody,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reply (bodyPrefix As MessageBody, replyAll As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">Das Präfix an, auf den ursprünglichen Textkörper der Nachricht vorangestellt.</param>
+        <param name="replyAll">
+          <b>true</b> gibt an, ob die Antwort an alle ursprünglichen Empfänger der Nachricht eingefügt werden sollen. anderenfalls <b>false</b>.</param>
+        <summary>Antworten auf die Nachricht.</summary>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ReplyTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplyTo As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ReplyTo { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft eine Liste von E-mail-Adressen an die Antworten gerichtet werden sollte.</summary>
+        <value>Eine Liste von E-mail-Adressen.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Diese e-Mail-Nachricht sendet.</summary>
+        <remarks>
+          <para>Durch Aufrufen dieser Methode führt mindestens einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Diese e-Mail-Nachricht sendet, und speichert eine Kopie der Datei im Ordner "Gesendete Elemente".</summary>
+        <remarks>
+          <para>Diese Methode funktioniert nicht, wenn die Nachricht Anlagen vorliegen. In diesem Fall muss die Nachricht zuerst werden gespeichert, und klicken Sie dann gesendet. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">Der Bezeichner des Ordners, in dem die Kopie speichern möchten.</param>
+        <summary>Diese e-Mail-Nachricht sendet, und speichert eine Kopie davon in den angegebenen Ordner.</summary>
+        <remarks>
+          <para>Diese Methode funktioniert nicht, wenn die Nachricht Anlagen vorliegen. In diesem Fall muss die Nachricht zuerst werden gespeichert, und klicken Sie dann gesendet. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">Der Name des Ordners, in dem die Kopie speichern möchten.</param>
+        <summary>Diese e-Mail-Nachricht sendet, und speichert eine Kopie davon in den angegebenen Ordner.</summary>
+        <remarks>
+          <para>Diese Methode funktioniert nicht, wenn die Nachricht Anlagen vorliegen. In diesem Fall muss die Nachricht zuerst werden gespeichert, und klicken Sie dann gesendet. Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Sender { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dient zum Abrufen oder festlegen den Absender der E-mail-Nachricht.</summary>
+        <value>Eine E-mail-Adresse.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressReadReceipt">
+      <MemberSignature Language="C#" Value="public void SuppressReadReceipt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SuppressReadReceipt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SuppressReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SuppressReadReceipt ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SuppressReadReceipt();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Unterdrückt die lesebestätigung für die Nachricht an.</summary>
+        <remarks>
+          <para>Aufruf dieser Methode führt einen Anruf an die Exchange-Webdienste (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft die Liste der Empfänger der e-Mail-Nachricht.</summary>
+        <value>Eine e-Mail-Adresse-Auflistung.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.VotingInformation VotingInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.VotingInformation VotingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VotingInformation As VotingInformation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::VotingInformation ^ VotingInformation { Microsoft::Exchange::WebServices::Data::VotingInformation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.VotingInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft Details für eine Nachricht Stimmabgabe, die Stimmabgabe Schaltflächen, eine Antwort Stimmabgabe oder eine Genehmigung Request-Nachricht hat.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In dieser Eigenschaft und Daten enthält, die <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" /> Wert muss im Eigenschaftensatz übergeben vorhanden sein, die <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> Methode.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

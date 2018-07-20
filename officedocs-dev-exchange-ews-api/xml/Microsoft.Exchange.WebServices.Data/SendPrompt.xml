@@ -1,0 +1,85 @@
+<Type Name="SendPrompt" FullName="Microsoft.Exchange.WebServices.Data.SendPrompt">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f2e348dcbc8ad018a55212569b136fa0bcf4d1db" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625525" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SendPrompt" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendPrompt extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendPrompt" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendPrompt" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendPrompt" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Gibt das Prompt Verhalten eine Option voting zugeordnet. Die <see cref="T:Microsoft.Exchange.WebServices.Data.SendPrompt" /> Enumeration gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Keine Aufforderung Verhalten wird angegeben.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="Send" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt Send = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.Send" />
+      <MemberSignature Language="VB.NET" Value="Send" />
+      <MemberSignature Language="C++ CLI" Value="Send" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Die Antwort gesendet werden soll, sofort Wenn der Benutzer eine voting Option mit diesen Wert in wählt die <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> Eigenschaft.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingOption">
+      <MemberSignature Language="C#" Value="VotingOption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt VotingOption = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.VotingOption" />
+      <MemberSignature Language="VB.NET" Value="VotingOption" />
+      <MemberSignature Language="C++ CLI" Value="VotingOption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Sollte der Benutzer aufgefordert, ihre Auswahl zu bestätigen, vor dem Senden einer Antwort, bei der Auswahl einer voting Option mit diesen Wert in der <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> Eigenschaft.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,111 @@
+<Type Name="DeleteRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.DeleteRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625184" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeleteRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeleteRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Stellt einen Vorgang, um eine Posteingangsregel zu löschen.</summary>
+    <remarks>
+      <para>Sie können eine vorhandene löschen <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Klassenobjekt mithilfe dieser Klasse</para>
+      <para>Diese Klasse wird von der <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> Klasse</para>
+      <para />
+    </remarks>
+    <example>
+      <para>Das folgende Beispiel sucht das <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> -Klasse, um eine vorhandene suchen <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Objekt mit dem Namen "MoveInterestingToJunk" aus dem Postfach des Benutzers. Wenn die <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> vorhanden ist, die <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> wird gelöscht, wenn der Dienst. UpdateInboxRules (new RuleOperation [] {SetRuleOperation}, true) Zeile wird ausgeführt.</para>
+      <code>// Create the DeleteRuleOperation.
+// Delete the rule "MoveInterestingToJunk", if it exists.
+// Get the RuleCollection.
+RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
+foreach (Rule ruleinCollection in ruleCollection)
+{
+    if (ruleinCollection.DisplayName == "MoveInterestingToJunk")
+    {
+        DeleteRuleOperation deleteRuleOperation = new DeleteRuleOperation(ruleinCollection.Id);
+        service.UpdateInboxRules(new RuleOperation[] { deleteRuleOperation }, true);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialisiert eine neue Instanz der DeleteRuleOperation-Klasse.</summary>
+        <remarks>
+          <para>Diese Methode löscht eine <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Class-Objekt in einem bestimmten Postfach.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteRuleOperation (string ruleId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string ruleId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ruleId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteRuleOperation(System::String ^ ruleId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="ruleId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ruleId">Der Bezeichner der Regel gelöscht und an den messaging-Server gesendet werden.</param>
+        <summary>Initialisiert eine neue Instanz der Klasse DeleteRuleOperation mit der angegebenen Regel-ID an.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleId">
+      <MemberSignature Language="C#" Value="public string RuleId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RuleId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RuleId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RuleId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ruft ab oder legt diesen fest den eindeutigen Bezeichner der Regel gelöscht werden soll.</summary>
+        <value>Die Kennung für die Regel.</value>
+        <remarks>
+          <para>Die <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> -Eigenschaft ist der eindeutige Bezeichner für die <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Class-Objekt, das gelöscht werden soll.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,315 @@
+<Type Name="SeekToConditionItemView" FullName="Microsoft.Exchange.WebServices.Data.SeekToConditionItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624606" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SeekToConditionItemView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SeekToConditionItemView&#xA;Inherits ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SeekToConditionItemView sealed : Microsoft::Exchange::WebServices::Data::ViewBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ViewBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7630b-101">Stellt die Einstellungen für die Ansicht in einem Ordner Suchvorgang dar.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7630b-101">Represents the view settings in a folder search operation.</span>
+      </span>
+      <span data-ttu-id="7630b-102">Die <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> Klasse gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7630b-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (condition As SearchFilter, pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="condition">
+          <span data-ttu-id="7630b-103">Die Bedingung, die verwendet werden, wenn Suchvorgänge.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-103">The condition to be used when seeking.</span>
+          </span>
+        </param>
+        <param name="pageSize">
+          <span data-ttu-id="7630b-104">Die maximale Anzahl der Elemente, die der Suchvorgang zurückgegeben werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-104">The maximum number of elements the search operation should return.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7630b-105">Initialisiert eine neue Instanz des der <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> -Klasse mit einer Suchfilter und eine Seitengröße.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> class with a search filter and a page size.</span>
+          </span>
+          <span data-ttu-id="7630b-106">Die <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> Konstruktor gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-106">The <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="condition">
+          <span data-ttu-id="7630b-107">Die Bedingung, die verwendet werden, wenn Suchvorgänge.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-107">The condition to be used when seeking.</span>
+          </span>
+        </param>
+        <param name="pageSize">
+          <span data-ttu-id="7630b-108">Die maximale Anzahl der Elemente, die der Suchvorgang zurückgegeben werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-108">The maximum number of elements the search operation should return.</span>
+          </span>
+        </param>
+        <param name="offsetBasePoint">
+          <span data-ttu-id="7630b-109">Die Position in der Elementansicht, von dem den Offset gemessen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-109">The position in the item view from which to measure the offset.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7630b-110">Initialisiert eine neue Instanz des der <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> -Klasse mit einer Suchfilter, eine Seitengröße und einen Basiskalender Punkt für den Offset.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-110">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> class with a search filter, a page size, and a base point for the offset.</span>
+          </span>
+          <span data-ttu-id="7630b-111">Die <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> Konstruktor gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Condition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter Condition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter Condition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" />
+      <MemberSignature Language="VB.NET" Value="Public Property Condition As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ Condition { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7630b-112">Dient zum Abrufen oder festlegen den Suchfilter für Seek.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-112">Gets or sets the search filter for seek.</span>
+          </span>
+          <span data-ttu-id="7630b-113">Die <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7630b-114">Die Bedingung für Seek.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-114">The condition for seek.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7630b-115">
+            <para>Die verfügbaren Filterklassen gehören SearchFilter.IsEqualTo, SearchFilter.ContainsSubstring und SearchFilter.SearchFilterCollection. Wenn SearchFilter ein Nullverweis (Nothing in Visual Basic) ist, werden keine Suchfilter angewendet.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-115">
+              <para>The available search filter classes include SearchFilter.IsEqualTo, SearchFilter.ContainsSubstring, and SearchFilter.SearchFilterCollection. If SearchFilter is a null reference (Nothing in Visual Basic), no search filters are applied. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetBasePoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property OffsetBasePoint As OffsetBasePoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OffsetBasePoint OffsetBasePoint { Microsoft::Exchange::WebServices::Data::OffsetBasePoint get(); void set(Microsoft::Exchange::WebServices::Data::OffsetBasePoint value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7630b-116">Dient zum Abrufen oder Festlegen der Position in einer Elementansicht, von dem einen Offset gemessen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-116">Gets or sets the position in an item view from which to measure an offset.</span>
+          </span>
+          <span data-ttu-id="7630b-117">Die Basis ist am Anfang oder am Ende eines Elements anzeigen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-117">The base point is at either the beginning or the end of an item view.</span>
+          </span>
+          <span data-ttu-id="7630b-118">Die <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7630b-119">Der Zentralpunkt Basis der Offset.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-119">The base point of the offset.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7630b-120">Ruft die Eigenschaften für die zurückgegebenen Elemente sortiert werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-120">Gets the properties against which the returned items should be ordered.</span>
+          </span>
+          <span data-ttu-id="7630b-121">Die <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7630b-122">Die Eigenschaften, mit denen der zurückgegebenen Elemente sortiert werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-122">The properties against which the returned items should be ordered.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7630b-123">Ruft ab oder legt die maximale Anzahl von Elementen oder Ordnern, die der Suchvorgang zurückgegeben werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-123">Gets or sets the maximum number of items or folders the search operation should return.</span>
+          </span>
+          <span data-ttu-id="7630b-124">Die <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7630b-125">Die maximale Anzahl von Elementen oder Ordnern, die der Suchvorgang zurückgegeben werden soll.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-125">The maximum number of items or folders the search operation should return.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7630b-126">Ruft ab oder legt den Modus der Suche durchqueren.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-126">Gets or sets the mode of the search traversal.</span>
+          </span>
+          <span data-ttu-id="7630b-127">Standard ist <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-127">Defaults to <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.</span>
+          </span>
+          <span data-ttu-id="7630b-128">Die <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7630b-129">Die Suche Traversal-Modus.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7630b-129">The search traversal mode.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

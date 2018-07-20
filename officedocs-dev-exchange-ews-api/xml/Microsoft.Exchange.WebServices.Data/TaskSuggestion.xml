@@ -1,0 +1,106 @@
+<Type Name="TaskSuggestion" FullName="Microsoft.Exchange.WebServices.Data.TaskSuggestion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="48f1bbce45953b2bb13e3e68b8155ce15e686894" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20625387" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class TaskSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TaskSuggestion extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TaskSuggestion&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TaskSuggestion sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d2b58-101">Beschreibt einen vorgeschlagenen Vorgang.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2b58-101">Describes a proposed task.</span>
+      </span>
+      <span data-ttu-id="d2b58-102">Die <see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> Klasse gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2b58-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Assignees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection Assignees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection Assignees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Assignees As EmailUserEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailUserEntityCollection ^ Assignees { Microsoft::Exchange::WebServices::Data::EmailUserEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2b58-103">Ruft die Namen der Personen, die der vorgeschlagene Vorgang zugewiesen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-103">Gets the names of the people assigned to the proposed task.</span>
+          </span>
+          <span data-ttu-id="d2b58-104">Die <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d2b58-105">Die Namen der Aufgabe Vorschlag zugewiesen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-105">The names of the task suggestion assignees.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskString">
+      <MemberSignature Language="C#" Value="public string TaskString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaskString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TaskString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2b58-106">Ruft die Beschreibung des vorgeschlagenen Vorgangs ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-106">Gets the description of the proposed task.</span>
+          </span>
+          <span data-ttu-id="d2b58-107">Die <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d2b58-108">Vorgeschlagene Vorgang.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2b58-108">The suggested task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

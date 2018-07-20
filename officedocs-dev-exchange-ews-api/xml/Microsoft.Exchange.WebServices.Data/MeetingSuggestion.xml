@@ -1,0 +1,238 @@
+<Type Name="MeetingSuggestion" FullName="Microsoft.Exchange.WebServices.Data.MeetingSuggestion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0b9d86415fee65d1420f821b997e0f439c9559f9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624638" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MeetingSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MeetingSuggestion extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MeetingSuggestion&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingSuggestion sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c8adf-101">Enthält Informationen zu einer Antwort auf Besprechungsanfrage mit einer vorgeschlagenen Besprechungszeit.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c8adf-101">Contains information about a meeting response with a suggested meeting time.</span>
+      </span>
+      <span data-ttu-id="c8adf-102">Die <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> Klasse gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c8adf-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attendees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection Attendees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection Attendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attendees As EmailUserEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailUserEntityCollection ^ Attendees { Microsoft::Exchange::WebServices::Data::EmailUserEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-103">Ruft die Teilnehmer für die Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-103">Gets the attendees for the meeting.</span>
+          </span>
+          <span data-ttu-id="c8adf-104">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-105">Die Teilnehmer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-105">The attendees.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; EndTime { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-106">Ruft die Zeit, die Ende die Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-106">Gets the time the meeting will end.</span>
+          </span>
+          <span data-ttu-id="c8adf-107">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-108">Die Endzeit.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-108">The end time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-109">Ruft den Ort der Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-109">Gets the location of the meeting.</span>
+          </span>
+          <span data-ttu-id="c8adf-110">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-111">Der Speicherort.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-111">The location.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingString">
+      <MemberSignature Language="C#" Value="public string MeetingString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-112">Ruft den Namen der Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-112">Gets the name of the meeting.</span>
+          </span>
+          <span data-ttu-id="c8adf-113">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-114">Der Name der Besprechung.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-114">The meeting name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; StartTime { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-115">Ruft die Startzeit für die Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-115">Gets the time the meeting starts.</span>
+          </span>
+          <span data-ttu-id="c8adf-116">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> Eigenschaft gilt für Clients, die Exchange Online und Exchange beginnend mit Exchange Server 2013-Versionen abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-117">Die Anfangszeit.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-117">The start time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8adf-118">Ruft die Betreffzeile der Besprechung ab.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-118">Gets the subject line of the meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8adf-119">Die <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> Eigenschaft gilt für Clients, die Exchange Online und Vorschlag Betreff abzielen.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8adf-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> property is applicable for clients that target Exchange Online and suggestion subject.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
